@@ -1,58 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Inner Circle — Eye of Ra</title>
 
+  <!-- Use global stylesheet -->
   <link rel="stylesheet" href="style.css">
 
-  <style>
-    /* Page Background */
-    body {
-      background: linear-gradient(to bottom, #0b0b0b, #000000);
-      color: #e8e8e8;
-      font-family: var(--body-font);
-      padding-bottom: 5rem;
-    }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
 
-    /* Ancient Scroll Frame */
-    .scroll-frame {
-      max-width: 800px;
-      margin: 3rem auto;
-      padding: 3rem 2rem;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-      border-radius: 8px;
-      background: rgba(15, 15, 15, 0.8);
-      box-shadow: 0 0 25px rgba(212, 175, 55, 0.15);
-      position: relative;
-    }
+<body>
 
-    /* Gold corner glyphs */
-    .glyph {
-      position: absolute;
-      width: 38px;
-      opacity: 0.55;
-    }
+  <div class="scroll-frame">
 
-    .glyph.top-left { top: -18px; left: -18px; }
-    .glyph.top-right { top: -18px; right: -18px; }
-    .glyph.bottom-left { bottom: -18px; left: -18px; }
-    .glyph.bottom-right { bottom: -18px; right: -18px; }
+    <!-- Corner glyphs using the new mythical SVG -->
+    <img src="images/eye-of-ra-mythic.svg" class="glyph top-left" alt="">
+    <img src="images/eye-of-ra-mythic.svg" class="glyph top-right" alt="">
+    <img src="images/eye-of-ra-mythic.svg" class="glyph bottom-left" alt="">
+    <img src="images/eye-of-ra-mythic.svg" class="glyph bottom-right" alt="">
 
-    /* Initiation Header */
-    .scroll-title {
-      font-family: var(--header-font);
-      text-align: center;
-      color: var(--gold);
-      font-size: 2.4rem;
-      letter-spacing: 2px;
-      margin-bottom: 1rem;
-    }
+    <h1 class="scroll-title">THE INNER CIRCLE</h1>
+    <div class="divider"></div>
 
-    .divider {
-      width: 140px;
-      height: 2px;
-      background: var(--gold);
-      margin: 0.8rem auto 2rem auto;
+    <p class="scroll-text">
+      You did not arrive here by chance.<br><br>
+
+      In the old houses of Kemet, it was taught that only those who could recognize 
+      the hidden signs were ready to begin the deeper journey.  
+
+      To perceive the unseen is to step beyond the common path —  
+      and to step beyond is to accept responsibility for sight.
+      <br><br>
+
+      This chamber marks the first threshold.  
+      What is spoken here is not offered to the masses, nor carried by ordinary winds.  
+      Only those who discover the hidden door may enter the corridor of higher work.
+      <br><br>
+
+      Walk with intention.  
+      Read with discernment.  
+      Act with sovereignty.
+    </p>
+
+    <div class="seal">
+      <img src="images/eye-of-ra-mythic.svg" alt="Inner Seal">
+    </div>
+
+    <a href="index.html" class="return-link">Return to the Gate</a>
+
+  </div>
+
+</body>
+</html>
