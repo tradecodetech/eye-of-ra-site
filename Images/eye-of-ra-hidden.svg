@@ -1,0 +1,16 @@
+<svg width="180" height="180" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Upper Eye Curve -->
+  <path d="M6 28C14 18 28 12 40 12C49 12 57 15 61 22" stroke="#C6A84F" stroke-width="2.2" stroke-linecap="round"></path>
+
+  <!-- Lower Eye Curve -->
+  <path d="M6 28C14 36 28 42 40 42C49 42 57 38 61 30" stroke="#C6A84F" stroke-width="2.2" stroke-linecap="round"></path>
+
+  <!-- Inner Eye -->
+  <circle cx="40" cy="27" r="5" stroke="#C6A84F" stroke-width="2"></circle>
+
+  <!-- Subtle Teardrop (Egyptian marking) -->
+  <path d="M40 32C39 34 38 36 38 39" stroke="#C6A84F" stroke-width="2" stroke-linecap="round"></path>
+
+  <!-- Minimal Lash stroke -->
+  <path d="M45 27C48 28 51 30 53 33" stroke="#C6A84F" stroke-width="2" stroke-linecap="round"></path>
+</svg>
